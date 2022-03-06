@@ -1,0 +1,103 @@
+body {
+    background: rgb(84, 88, 84);
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+div {
+    justify-content: center;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 12px;
+}
+
+.botao {
+    justify-content: center;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+legend {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+.titulo {
+    display: block;
+    margin: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: center;
+}
+
+.Dadospessoais {
+    background: #016e36;
+    border: 3px solid rgb(1, 22, 8);
+    border-style: double;
+    border-radius: 10px;
+    width: 500px;
+    height: 315px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.dadosescolares {
+    background: #016e36;
+    border: 3px solid rgb(1, 22, 8);
+    border-style: double;
+    width: 500px;
+    height: 515px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.dadosprofissionais {
+    background: #016e36;
+    border: 3px solid rgb(1, 22, 8);
+    border-style: double;
+    width: 500px;
+    height: 715px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.fim {
+    background: #016e36;
+    border: 3px solid rgb(1, 22, 8);
+    border-style: double;
+    width: 500px;
+    height: 150px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+textarea {
+    width: 170px;
+}
+
+input:hover {
+    background-color: #cbd0f7;
+}
+
+input {
+    width: 500px;
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+
+.legenda {
+    text-align: right;
+    font-size: xx-small;
+}

@@ -1,0 +1,60 @@
+Tags input
+    <input /> é o padrão para iniciar e colocar o tipo
+        sempre vamos colocar o type="x" sendo x o que vc quer q o input seja
+        sempre tambem, o name="x" sendo x o nome do campo que aparece na url
+        podemos colocar o value="x" sendo x uma dica do que deve ser preenchido no campo
+        exemplo:
+            <input type="text" name="nome completo" value="digite aqui seu nome"
+        
+        Tipos de types:
+            Derivados do type text.
+            - email = espaço pra email com mini validação para colocar @.
+            - color = abre uma paleta de cores, apresentando como RGB ou hexadecimal.
+            - date = abre um calendario pra selecionar data, envia a data como AA-MM-DD
+            - datetime-local= abre o calendario com uma seleção de horário
+            - month = abre o calendario apenas de mes e ano.
+            - number = abre um espaço de texto, mas que aceita apenas numeros.
+            - range = abre uma barra para selecionar na barra (Tipo EVA)
+            - search = tag de pesquisar na pagina, podendo apagar o campo
+            - tel = para numero de telefone
+            - time = abre um relogio
+            - url = espaço para digitar um link, colocando https://
+            - week = escolhe qual semana do ano vc quer escolher, abrindo um calendario
+            
+        - <textarea> </textarea> nao precisa o type, pode ser colocado direto no codigo, para fazer 
+                comentario, sempre via POST.
+                - o <textarea> </textarea> possui types especificos.
+                - name = "escolhido"
+        - <select> </select> abre uma area para escolha de opções
+                - para adicionar opções, colocamos dentro do espaço para selecionar entre a tag <option>
+                - para mandar informações diferentes da escrita, usamos a value na tag <option>
+                - ex: <select name = "sexo">
+                        <option value= "M"> masculino </option>
+                        <option value= "F"> Feminino </option>
+                - para manter uma opção sempre no inicio das opções colocamos a atributo selected
+                - ex: <select name = "sexo">
+                        <option value= "M"> masculino </option>
+                        <option value= "F" selected> Feminino </option>
+                - o atributo podemos escolher pra aparecer +opções e podendo escolher multiplas opções.
+                - ex: <select name = "sexo" size= "x" multiple>
+                        <option value= "M"> masculino </option>
+                        <option value= "F" > Feminino </option>
+        - <button> </button> vale como submit dentro de um formulario, o texto entre a tag.
+                - sem função definida pelo javascript, ele funciona como submit.
+        - <input type="hidden" name="country" value="BR"/> mantem a opção invisivel, mas facilita achar
+                no banco de dados.
+        - <input type="file" name="upload"/> faz upload de arquivo, tem q ser enviado como POST
+                - accept="image/*" ja aparece para fazer upload do tipo de arquivo q vc quer.
+                - accept="application/pdf" aparece arquivos pdf.
+                - para o uso dessa tag, temos q colocar no <form> </form> enctype="multipart/form-data"
+                    aceitando assim varios tipos de arquivos.
+        - <label> </label> coloca o nome ou um texto antes do campo.
+                - para direcionar para o espaço para preencher, no label usamos o atributo for="x" sendo 
+                o x o id="" colocado no input.
+                ex: <label for="nome"> nome completo: </label>
+                    <input type="text" name="nome" id="nome"/>
+                ex: <input type="checkbox" name="checkbox" id="checkbox"/>
+                    <label for="checkbox> aceito os termos do usuario </label> 
+                - podemos tambem colocar o input dentro da tag label, que nao precisamos usar o atributo for.
+        - <fieldset> </fieldset> divide o formulario separando os espaços, fazendo quadrinhos, caixas.
+            <legend> </legend> coloca o nome na no quadradinho.

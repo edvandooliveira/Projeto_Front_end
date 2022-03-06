@@ -1,0 +1,13 @@
+Tags restantes -> formatação de texto
+        -<b> </b> deixa em negrito. (normal)
+        -<strong> </strong> deixa em negrito. (semantica, para dar enfase na leitura para deficientes
+                                                 visuais)
+        -<i> </i> utilizado para italico.
+        -<em> </em> deixa em italico. (semantica para dar enfase na leitura para deficientes visuais)
+        -<small> </small> diminui um pouco a fonte do texto.
+        -<big> </big> aumenta um pouco o tamanho da fonte.
+        -<del> </del> riscar o texto.
+        -<mark> </mark> marca texto.
+                - podendo mudar no CSS com mark{color: #ff001d}
+        -<sup> </sup> subir o texto na linha, como referencia de texto.
+        -<sub> </sub> abaixar o texto na linha, como referencia de texto.

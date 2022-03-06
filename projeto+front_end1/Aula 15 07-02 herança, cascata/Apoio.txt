@@ -1,0 +1,19 @@
+Herança
+    - quando a tag filha, que fica dentro da outra, herda as caracteristicas do CSS da tag mae
+    - sendo principalmente font-size, color e afins.
+
+Especifidade
+    -
+
+Unidades de medidas - Fixas ou absolutas
+    - px - pixel
+    - pt - points (um pouco maior que pixel)
+    - in - polegadas
+    - cm - centrimetros
+    - mm - milimetros
+Unidades de medida - volateis ou relativas
+    - % - porcentagem do tamanho total da tag mae
+    - em - baseia no font-size para aumentar o espaço.
+    - rem - baseia do font-size da tag html
+    - ex - baseia na font-size na letra "x" da fonte escolhida.
+    

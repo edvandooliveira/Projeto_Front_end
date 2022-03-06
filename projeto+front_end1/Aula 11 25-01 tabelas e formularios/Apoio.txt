@@ -1,0 +1,31 @@
+CRUD
+        -Manter basico do app
+                C- create
+                R- read
+                U- Update
+                D- delete
+
+Tabelas
+        - Pra fazer as tabelas tag inicial <table> </table>
+        - <tr></tr> fazem as linhas
+        - <td></td> fazem as colunas
+        - <thead> </thead> cabeçalho da tabelas
+                - pode usar no lugar do <td></td> o <th></th>
+        - <tbody> </tbody> corpo da tabelas
+
+Formulario
+        -codigo inicial <form></form>
+        - de função dentro da tag <form> colocamos pra onde o Formulario deve ir
+           <form action="pagina/login.html" method="GET">
+           action= ir para uma outra pagina.
+           method= GET passa via url, o POST, o link nao passa por url.
+        - espaço para digitar os dados
+        - tag <input> </input>
+                - type= "text" name="" (texto é para digitar)
+                - type= "radio" (duas opções, por exemplo homem ou mulher)
+                - type= "checkbox" (mais de duas opções e pode selecionar todas)
+                - type= "password" (senha)
+                - type= "email" (pede o @ e para completar o email)
+                - type= "date" (data)
+                - type= "submit" (salvar/enviar)
+

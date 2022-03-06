@@ -1,0 +1,23 @@
+tags do HTML 5
+    -tags estruturais do site
+        -<header></header> - titulo do site, pra site de busca ele acha pelo header, nao muda nada
+            visualmente.
+        -<nav></nav> - tag para menu, o monitor de busca ajuda a achar, colocando dentro a tag <a>
+        -<footer></footer> - rodapé do site
+            - todas as 3 tags, podem ser chamadas direto no CSS
+    -tags estruturais do contéudo
+        -<section></section> - divide os assuntos por sessão.
+        -<article></article> - texto ou parte principal da pagina
+        -<aside></aside> - não é muito utilizado, mas são artigos secundarios do texto.
+        -<time></time> - ajuda a localizar data em sites.
+        -<x></x> coloca o nome da tag da maneira que você quiser, funcionando como uma div.(nao funciona internet explrer 8)
+        -inputs que funcionam apenas no html5+
+            - type="search"
+            - type="email"
+            - type="submit" value=enviar
+            - type="url"
+            - type="tel" (abre o teclado numerico)
+            - type="range"
+            - type="date" ("month" "week")
+    - data-x="" variavel para ajudar a passar o id
+    

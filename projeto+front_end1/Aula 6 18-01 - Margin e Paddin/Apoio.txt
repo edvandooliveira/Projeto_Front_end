@@ -1,0 +1,19 @@
+Padding
+- espaço entre a borda e o conteúdo.
+ - temos padding: "" igual o border, podendo escolher qual lado ficar maior.
+        padding-bottom:""
+        padding-left:""
+        padding-right:""
+        padding-top:""
+        ou podemos colocar: padding:"a b c d"
+            - sendo a: encima
+                    b: lado direito
+                    c: baixo
+                    d: esquerda
+        ou podemos colocar: padding: "a c"
+            -sendo a: o valor repetido pra cima e baixo;
+                   c: o valor repetido pra direita e esquerda.
+
+Margin:
+- margem do conteúdo.
+- funciona igual o padding:""

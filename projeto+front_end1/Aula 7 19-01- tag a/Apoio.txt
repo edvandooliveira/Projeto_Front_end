@@ -1,0 +1,23 @@
+Tag <a>
+
+tag de ancoragem para link, ou pastas ou outros arquivos
+de paginas internas e externas
+
+-para navegar por pastas, devemos colocar o "link" da pasta, como por exemplo
+ <a href="teste/teste1/teste2/login.html">
+
+Atributos da tag <a></a>
+        href="" destino clicar no link
+        title=""  titulo do link quando deixa o mouse encima do link
+        target="" o que fazer com a pagina, se abrir em outra aba/guia.
+                "_blank" abre outra guia/aba.
+        pode usar imagens <img> </img>, textos <h1></h1>
+        id="" desce a pagina para o local de interesse
+Tag <a> no CSS
+        para a cor do texto não ficar roxo apos clicar a primeira vez.
+        usando no html> class=""
+               no CSS> {}
+        outros atributos pro CSS
+            .link{ color= ""} muda a cor
+            .link:hover {} (muda a cor quando coloca o mouse encima do botão)
+            .link.visited {} (muda a cor se você ja clicou no link)

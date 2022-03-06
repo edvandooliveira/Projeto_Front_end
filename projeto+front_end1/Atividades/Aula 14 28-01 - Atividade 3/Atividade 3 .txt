@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <title> Atividade 3 </title>
+</head>
+
+<body>
+
+    <div class="titulo">
+        <h1>Atividade 3</h1>
+        <p>Formulário e cadastro de currículo</p>
+    </div>
+    <form form action="pagina/login.html" method="POST">
+        <div>
+            <fieldset class="Dadospessoais">
+                <legend>Dados Pessoais</legend>
+                <hr>
+                <p class="legenda"> Todos os itens marcados com * devem ser preenchidos</p>
+                <label> Nome completo*
+                    <br>
+                    <input placeholder="Nome completo" type="text" name="nome" id="nome" required maxlength="100"/>
+                </label>
+                <label> Email*
+                    <br>
+                    <input placeholder="E-mail" type="email" name="email" id="email" required/>
+                </label>
+                <label> Celular*
+                    <br>
+                    <input placeholder="(xx)xxxx-xxxx" type="number" name="telefone" id="telefone" required />
+                </label>
+                <label> Endereço
+                <br>
+                <input placeholder="Endereço" type="text" name="Endereço" id="Endereço"/>
+            </label>
+                <label> CEP 
+                <br>
+                <input placeholder="CEP" type="number" name="cep" id="cep" max="99999999"/>
+            </label>
+                <label> Data de nascimento 
+                <br>
+                <input type="date" name="nascimento" id="nascimento" min="1990-01-01" max="2004-02-06"/>
+            </label>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset class="dadosescolares">
+                <legend>Dados Escolares</legend>
+                <hr>
+                <label> Nome do curso 1*
+                <br>
+                <input placeholder="Nome do curso" type="text" name="curso1" id="curso1" required maxlength="100"/>
+            </label>
+                <label> Horas*
+                <br>
+                <input placeholder="horas" type="number" name="horas" id="horas" required />
+            </label>
+                <label> Mês/Ano de conclusão
+                <br>
+                <input type="month" name="conclusão" id="conclusão" min="2015-02" max="2022-02"/>
+            </label>
+                <br>
+                <br>
+                <br>
+                <label> Nome do curso 2*
+                <br>
+                <input placeholder="Nome do curso" type="text" name="curso1" id="curso1" required maxlength="100"/>
+            </label>
+                <label> Horas*
+                <br>
+                <input placeholder="horas" type="number" name="horas" id="horas" required />
+            </label>
+                <label> Mês/Ano de conclusão
+                <br>
+                <input type="month" name="conclusão" id="conclusão" min="2015-02" max="2022-02"/>
+            </label>
+                <br>
+                <br>
+                <br>
+                <label> Nome do curso 3*
+                <br>
+                <input placeholder="Nome do curso" type="text" name="curso1" id="curso1" required maxlength="100"/>
+            </label>
+                <label> Horas*
+                <br>
+                <input placeholder="horas"type="number" name="horas" id="horas" required />
+            </label>
+                <label> Mês/Ano de conclusão
+                <br>
+                <input type="month" name="conclusão" id="conclusão" min="2015-02" max="2022-02"/>
+            </label>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset class="dadosprofissionais">
+                <legend>Dados Profissionais</legend>
+                <hr>
+                <label> Nome da empresa 1*
+                <br>
+                <input placeholder="Nome da empresa" type="text" name="emprego1" id="emprego1" required maxlength="100"/>
+            </label>
+                <label>Atual?
+                <br>
+                <select name = "empregoatual" required>
+                    <option value= "S" selected> Sim </option>
+                    <option value= "N"> Não </option>
+                </select>
+            </label>
+                <label>Tempo de emprego*
+                <br>
+                <input placeholder= "Tempo de empresa" type="text" name="tempo" id="tempo" required />
+            </label>
+                <label> Cargo
+                <br>
+                <input placeholder="cargo ocupado" type="text" name="cargo" id="cargo" required maxlength="100"/>
+            </label>
+                <label>Descrição das Atividades
+                <br>
+                <textarea>Descreva suas funções.</textarea>
+            </label>
+                <br>
+                <label> Nome da empresa 2*
+                <br>
+                <input placeholder="Nome da empresa" type="text" name="emprego1" id="emprego1" required maxlength="100"/>
+            </label>
+                <label>Atual?
+                <br>
+                <select name = "empregoatual" required>
+                    <option value= "S" selected> Sim </option>
+                    <option value= "N"> Não </option>
+                </select>
+            </label>
+                <label>Tempo de emprego*
+                <br>
+                <input placeholder= "Tempo de empresa" type="text" name="tempo" id="tempo" required />
+            </label>
+                <label> Cargo
+                <br>
+                <input placeholder="cargo ocupado"  type="text" name="cargo" id="cargo" required maxlength="100"/>
+            </label>
+                <label>Descrição das Atividades
+                <br>
+                <textarea>Descreva suas funções.</textarea>
+            </label>
+                <br>
+                <label> Nome da empresa 3*
+                <br>
+                <input placeholder="Nome da empresa" type="text" name="emprego1" id="emprego1" required maxlength="100"/>
+            </label>
+                <label>Atual?
+                <br>
+                <select name = "empregoatual" required>
+                    <option value= "S" selected> Sim </option>
+                    <option value= "N"> Não </option>
+                </select>
+            </label>
+                <label>Tempo de emprego*
+                <br>
+                <input placeholder= "Tempo de empresa" type="text" name="tempo" id="tempo" required />
+            </label>
+                <label> Cargo
+                <br>
+                <input placeholder="cargo ocupado"  type="text" name="cargo" id="cargo" required maxlength="100"/>
+            </label>
+                <label>Descrição das Atividades
+                <br>
+                <textarea>Descreva suas funções.</textarea>
+                <br>
+            </label>
+
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="fim">
+                <label class="termos">
+                <input type="checkbox"/> Li e autorizo uso dos meus dados no presente formulário.
+                </label>
+                <br>
+                <input type="submit" class="botao" />
+            </fieldset>
+        </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+Unidades de referencia
+    - vh - respeita o tamanho maximo da altura
+    - vw - reita o tamanho maximo da largura
+    - vmin - verifica a menor altura ou largura e usa como base
+    - vmax - verifica a maior altura ou largura e usa como base
+    - font-size: inherit - obriga a forçar a herdar o tamanho da tag direta
+
+adaptaveis e responsivos
+-o site responsivos, ele encolhe conforme você diminui a tela e chega a um ponto que deforma
+-adaptaveis o site muda para mobile conforme você diminui a tela
+
+    - na tag head colocamos a a tag <meta id= "viewport" name= "viewport" content= "width=device-width user-scalable=no">
+    - o width=device-width (faz com o que o conteudo seja adaptado seguindo a largura da tela)
+    - o user-scalable=no (impede que o usuario dê zoom)
+    
