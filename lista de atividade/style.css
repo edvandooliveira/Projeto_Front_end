@@ -1,0 +1,40 @@
+body {
+    background-color: #ccc;
+}
+
+
+/* div {
+    display: flex;
+} */
+
+.titulo {
+    font-size: 19px;
+    margin: auto;
+    padding: 10px;
+    border: solid 1px;
+    text-align: center;
+}
+
+.nome {
+    font-size: 10px;
+    align-items: center;
+}
+
+.atividade ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid;
+    margin: 5px;
+    display: inline-block;
+}
+
+.atividade ul li a:hover {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #555;
+    border: 1px solid;
+    margin: 5px;
+    display: inline-block;
+}
