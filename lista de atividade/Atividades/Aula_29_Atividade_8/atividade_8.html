@@ -53,7 +53,7 @@
 
 <body>
 
-    <!-- <div id="corpo">
+    <div id="corpo">
         <div class="questao">
             <h1>Questã 01:<span>Calcular a média ponderada de 3 notas
                     <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1006"
@@ -77,80 +77,80 @@
                     let n3 = Number(document.getElementById(n3).value);
                     document.getElementById("#res").value = media(n1, n2, n3);
                 }
-            </script> -->
-    </div>
-    <div class="questao">
-        <h1>Questã 02:<span> Senha Fixa <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1114"
+            </script>
+        </div>
+        <div class="questao">
+            <h1>Questã 02:<span> Senha Fixa <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1114"
                         target="_blank">detalhar</a></span></h1>
-        <p id="">Resultado: <span id="senha"></span></p>
-        <label for="">Digite a senha:</label>
-        <input type="password" id="password">
-        <input type="button" value="Calcular">
-        <script>
-            var password = document.getElementById("password"),
-                confirm_password = document.getElementById("confirm_password");
+            <p id="">Resultado: <span id="senha"></span></p>
+            <label for="">Digite a senha:</label>
+            <input type="password" id="password">
+            <input type="button" value="Calcular">
+            <script>
+                var password = document.getElementById("password"),
+                    confirm_password = document.getElementById("confirm_password");
 
-            function validatePassword() {
-                if (password.value != confirm_password.value) {
-                    confirm_password.setCustomValidity("Senhas diferentes!");
-                } else {
-                    confirm_password.setCustomValidity('');
+                function validatePassword() {
+                    if (password.value != confirm_password.value) {
+                        confirm_password.setCustomValidity("Senhas diferentes!");
+                    } else {
+                        confirm_password.setCustomValidity('');
+                    }
                 }
-            }
 
-            password.onchange = validatePassword;
-            confirm_password.onkeyup = validatePassword;
-        </script>
-    </div>
-    <div class="questao">
-        <h1>Questã 03:<span> Intervalo [0,25], [25,50], [50,75], [75,100] <a
+                password.onchange = validatePassword;
+                confirm_password.onkeyup = validatePassword;
+            </script>
+        </div>
+        <div class="questao">
+            <h1>Questã 03:<span> Intervalo [0,25], [25,50], [50,75], [75,100] <a
                         href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1037"
                         target="_blank">detalhar</a></span></h1>
-        <p id="">Resultado: O valor digita esta no intervalo [xx,xx].</p>
-        <label for="">Valor:</label>
-        <input type="text" id="">
-        <input type="button" value="Calcular">
-    </div>
-    <div class="questao">
-        <h1>Questã 04:<span> Aumento de Salário <a
+            <p id="">Resultado: O valor digita esta no intervalo [xx,xx].</p>
+            <label for="">Valor:</label>
+            <input type="text" id="">
+            <input type="button" value="Calcular">
+        </div>
+        <div class="questao">
+            <h1>Questã 04:<span> Aumento de Salário <a
                         href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1048"
                         target="_blank">detalhar</a></span></h1>
-        <p id="">Resultado: Novo salario: xx.xx, Ganho: xx.xx, Percentual: xx%</p>
-        <label for="">Salário atual:</label>
-        <input type="text" id="">
-        <input type="button" value="Calcular">
-    </div>
-    <div class="questao">
-        <h1>Questã 05:<span> Imposto de Renda <a
+            <p id="">Resultado: Novo salario: xx.xx, Ganho: xx.xx, Percentual: xx%</p>
+            <label for="">Salário atual:</label>
+            <input type="text" id="">
+            <input type="button" value="Calcular">
+        </div>
+        <div class="questao">
+            <h1>Questã 05:<span> Imposto de Renda <a
                         href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1051"
                         target="_blank">detalhar</a></span></h1>
-        <p id="">Resultado:Imposto xxxxx</p>
-        <label for="">Renda:</label>
-        <input type="text" id="">
-        <input type="button" value="Calcular">
-    </div>
-    <div class="questao">
-        <h1>Questã 06:<span> Calcular o salário de um funcionário <a
+            <p id="">Resultado:Imposto xxxxx</p>
+            <label for="">Renda:</label>
+            <input type="text" id="">
+            <input type="button" value="Calcular">
+        </div>
+        <div class="questao">
+            <h1>Questã 06:<span> Calcular o salário de um funcionário <a
                         href="https://www.urionlinejudge.com.br/repository/UOJ_1008.html" target="_blank">detalhar</a></span></h1>
-        <p id="">Resultado: O funcionario xxxxxx vai receber xxx.</p>
-        <label for="">Nome Funcionário</label>
-        <input type="text" id="">
-        <label for="">Valor Hora</label>
-        <input type="text" id="">
-        <label for="">Total de Horas Trabalhado</label>
-        <input type="text" id="">
-        <input type="button" value="Calcular">
-    </div>
-    <div class="questao">
-        <h1>Questã 07:<span> Calcular o consumo médio de um automóvel <a
+            <p id="">Resultado: O funcionario xxxxxx vai receber xxx.</p>
+            <label for="">Nome Funcionário</label>
+            <input type="text" id="">
+            <label for="">Valor Hora</label>
+            <input type="text" id="">
+            <label for="">Total de Horas Trabalhado</label>
+            <input type="text" id="">
+            <input type="button" value="Calcular">
+        </div>
+        <div class="questao">
+            <h1>Questã 07:<span> Calcular o consumo médio de um automóvel <a
                         href="https://www.urionlinejudge.com.br/repository/UOJ_1014.html" target="_blank">detalhar</a></span></h1>
-        <p id="">Resultado: O automóvel fez o consumo médio de xxx.</p>
-        <label for="">Distância percorrida</label>
-        <input type="text" id="">
-        <label for="">Combustível gasto</label>
-        <input type="text" id="">
-        <input type="button" value="Calcular">
-    </div>
+            <p id="">Resultado: O automóvel fez o consumo médio de xxx.</p>
+            <label for="">Distância percorrida</label>
+            <input type="text" id="">
+            <label for="">Combustível gasto</label>
+            <input type="text" id="">
+            <input type="button" value="Calcular">
+        </div>
     </div>
 </body>
 
